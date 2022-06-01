@@ -1,0 +1,47 @@
+:root {
+  /* Colors */
+  --primary-desaturated-red: hsl(0, 36%, 70%);
+  --primary-soft-red: hsl(0, 93%, 68%);
+
+  --neutral-dark-grayish-red: hsl(0, 6%, 24%);
+
+  /* Gradients */
+  --linear-light: linear-gradient(135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%));
+  --linear-darker: linear-gradient(135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%));
+
+  /* Fonts */
+  /* Weights: 300, 400, 600 */
+  --comun-font-family: 'Josefin Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  min-width: 375px;
+  min-height: 100vh;
+
+  font-family: var(--comun-font-family);
+  font-size: 1.6rem;
+}
+
+img {
+  display: block;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
