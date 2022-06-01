@@ -94,8 +94,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [height property | MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/height#:~:text=Percentages,initial%20containing%20block.) - This help me when I have troubles with sizing an image whit respect to the parent element.
+- [form docs | MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form) - This is an amazing article which helped me understand how to use the form element.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
