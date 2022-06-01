@@ -6,8 +6,8 @@
   --neutral-dark-grayish-red: hsl(0, 6%, 24%);
 
   /* Gradients */
-  --linear-light: linear-gradient(135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%));
-  --linear-darker: linear-gradient(135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%));
+  --linear-light: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  --linear-darker: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
 
   /* Fonts */
   /* Weights: 300, 400, 600 */
@@ -35,6 +35,26 @@ body {
 
 img {
   display: block;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+
+  padding: 0 28px;
+  height: 0px;
+  min-height: 65px;
+
+  background-color: var(--linear-light);
+}
+
+.header__logo {
+  height: 30%;
 }
 
 .attribution {
