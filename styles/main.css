@@ -40,6 +40,7 @@ img {
 .main-container {
   width: 100%;
   height: 100%;
+  min-height: 100vh;
 }
 
 .header {
@@ -63,6 +64,117 @@ img {
   object-fit: cover;
   object-position: center top;
   overflow: hidden;
+}
+
+.body-copy {
+  padding: 0 28px;
+
+  text-align: center;
+
+  background-color: var(--linear-light);
+}
+
+.body-copy h1 {
+  display: inline-block;
+
+  width: 100%;
+  margin-top: 60px;
+
+  font-size: 4.4rem;
+  font-weight: 600;
+  line-height: 1em;
+  text-transform: uppercase;
+
+  color: var(--neutral-dark-grayish-red);
+}
+
+.body-copy h1>span {
+  font-weight: 300;
+
+  color: var(--primary-desaturated-red);
+}
+
+.body-copy p {
+  margin-top: 16px;
+
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+
+  color: var(--primary-desaturated-red);
+}
+
+.body-copy .form {
+  display: flex;
+
+  margin-top: 26px;
+  margin-bottom: 26px;
+  border: 1px solid var(--primary-desaturated-red);
+  border-radius: 30px;
+  height: 60px;
+
+  text-align: left;
+
+  background-color: var(--linear-light);
+  color: var(--primary-desaturated-red);
+}
+
+.form label {
+  display: none;
+}
+
+.form input {
+  border: none;
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+
+  font-family: var(--comun-font-family);
+  font-size: 1.4rem;
+  font-weight: 400;
+
+  background-color: transparent;
+  color: var(--primary-desaturated-red);
+}
+
+.form input::placeholder {
+  color: hsl(0, 36%, 80%);
+}
+
+.form input:focus-visible {
+  outline: none;
+}
+
+.form button {
+  box-shadow: -1px 4px 8px var(--primary-desaturated-red);
+  border-radius: 30px;
+  border: none;
+  width: 0px;
+  min-width: 76px;
+  height: 100%;
+
+  background-image:
+    url("../images/icon-arrow.svg"),
+    var(--linear-darker);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px, contain;
+
+  cursor: pointer;
+}
+
+.form button:hover {
+  box-shadow: -1px 8px 16px var(--primary-desaturated-red);
+
+  min-width: 80px;
+
+  background-image: revert;
+  background:
+    url(../images/icon-arrow.svg),
+    linear-gradient(135deg, hsl(359, 76%, 89%), hsl(0, 93%, 89%));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px, contain;
 }
 
 .attribution {
