@@ -37,6 +37,10 @@ img {
   display: block;
 }
 
+.hidden {
+  display: hidden;
+}
+
 .main-container {
   width: 100%;
   height: 100%;
