@@ -164,8 +164,7 @@ img {
 
 .form button:hover {
   box-shadow: -1px 8px 16px var(--primary-desaturated-red);
-
-  min-width: 80px;
+  width: 26%;
 
   background-image: revert;
   background:
