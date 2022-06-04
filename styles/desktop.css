@@ -8,9 +8,8 @@
 
   background-image: url("../images/bg-pattern-desktop.svg");
   background-repeat: no-repeat;
-  background-position-x: 0% 60%;
-  background-position-y: center;
-  background-size: fill;
+  background-position: 0% center;
+  background-size: 70%;
 }
 
 .header {
