@@ -12,6 +12,7 @@
 
   <!--Styles-->
   <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/desktop.css" media="(min-width:760px)">
 
   <!--Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +27,8 @@
       <img class="header__logo" src="./images/logo.svg" alt="Base Apparel Logo">
     </header>
 
-    <picture>
+    <picture class="grid-row-span-2">
+      <source srcset="./images/hero-desktop.jpg" media="(min-width:760px)">
       <img class="hero__image" src="./images/hero-mobile.jpg" alt="Girl looking at you with a tree in the background"
         width="375" height="250">
     </picture>
