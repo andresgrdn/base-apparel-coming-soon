@@ -150,9 +150,8 @@ img {
   box-shadow: -1px 4px 8px var(--primary-desaturated-red);
   border-radius: 30px;
   border: none;
-  width: 0px;
+  width: 24%;
   min-width: 76px;
-  height: 100%;
 
   background-image:
     url("../images/icon-arrow.svg"),
