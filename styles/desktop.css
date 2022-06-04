@@ -5,6 +5,12 @@
 .main-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
+
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-position-x: 0% 60%;
+  background-position-y: center;
+  background-size: fill;
 }
 
 .header {
