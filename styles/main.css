@@ -175,6 +175,17 @@ img {
   background-size: 14px, contain;
 }
 
+.form span {
+  display: inline-block;
+  margin-right: 16px;
+  width: 36px;
+
+  background-image: url("../images/icon-error.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
