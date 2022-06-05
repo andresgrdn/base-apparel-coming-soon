@@ -120,6 +120,24 @@ img {
   color: var(--primary-desaturated-red);
 }
 
+.form.warning-state {
+  position: relative;
+  border-width: 2px;
+  border-color: var(--primary-soft-red);
+}
+
+.warning-state::after {
+  content: "Please provide a valid email";
+  position: absolute;
+  bottom: -48%;
+
+  padding-left: 28px;
+
+  font-size: 1.4rem;
+
+  color: var(--primary-soft-red);
+}
+
 .form label {
   display: none;
 }
