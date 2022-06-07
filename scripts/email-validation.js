@@ -4,21 +4,17 @@ warning state
     :after -> warning msg
   span -> show warning icon
 
-warning event -> submit btn
-  when clicking
-    if input > "" or input > "(a-z)@"
-      show warning state
+when invalid event is fired -> input control
+  show warning state
 */
 
-const form = document.getElementById("emailForm");
-const input = document.getElementById("EmailInput");
+const emailForm = document.getElementById("emailForm");
+const emailInput = document.getElementById("EmailInput");
 const warningSpan = document.getElementById("warningSpan");
-const btnSubmit = document.getElementById("submitBtn");
 
-btnSubmit.addEventListener("click", (e) => {
-  if (form.classList.contains("warning-state")) return;
-  if (input.value === "") {
-    form.classList.toggle("warning-state");
-    warningSpan.classList.toggle("hidden");
-  }
+emailInput.addEventListener("invalid", () => {
+  if (emailForm.classList.contains("warning-state")) return;
+
+  emailForm.classList.toggle("warning-state");
+  warningSpan.classList.toggle("hidden");
 });
