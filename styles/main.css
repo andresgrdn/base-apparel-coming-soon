@@ -182,15 +182,13 @@ img {
 
 .form button:hover {
   box-shadow: -1px 8px 16px var(--primary-desaturated-red);
-  width: 26%;
 
   background-image: revert;
-  background:
+  background-image:
     url(../images/icon-arrow.svg),
     linear-gradient(135deg, hsl(359, 76%, 89%), hsl(0, 93%, 89%));
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 14px, contain;
 }
 
 .warning-icon {
